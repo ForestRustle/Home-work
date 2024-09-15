@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.about__title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.searching__input {
+  background: #1F2937;
+  opacity: 0.6;
+  border: none;
+  border-radius: 100px;
+}
+
+.searching__input::placeholder {
+  color: #FFFFFF;
+}
+
+.circle {
+   background-color: #FFFFFF;
+   width: 2px;
+   height: 2px;
+   border-radius: 50%;
+   border: 1px solid #FFFFFF;;
+   opacity: 0.6;
+}
+.about__specialty,
+.about__date {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.author__name-author {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.authort__job-author {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.article__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.textstyle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.article__text span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: underline;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
