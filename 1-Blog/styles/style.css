@@ -8,6 +8,22 @@ a {
   color: #FFFFFF;
 }
 
+.header {
+  margin-bottom: 73px;
+}
+
+.home span {
+  background-image: url('../images/icon.svg');
+  background-color: #4B5563;
+  padding: 6px 12px;
+  border-radius: 3px;
+  margin-right: 11px;
+}
+
+.menu__list {
+  list-style: none;
+}
+
 .about__title {
   font-size: 24px;
   font-weight: 400;
@@ -20,6 +36,7 @@ a {
   opacity: 0.6;
   border: none;
   border-radius: 100px;
+  padding: 11px 12px 9px 49px;
 }
 
 .searching__input::placeholder {
@@ -27,13 +44,20 @@ a {
 }
 
 .circle {
-   background-color: #FFFFFF;
-   width: 2px;
-   height: 2px;
-   border-radius: 50%;
-   border: 1px solid #FFFFFF;;
-   opacity: 0.6;
+  background-color: #FFFFFF;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  ;
+  opacity: 0.6;
 }
+
+.about {
+  margin: 0;
+  margin-bottom: 14px;
+}
+
 .about__specialty,
 .about__date {
   font-size: 14px;
@@ -41,6 +65,10 @@ a {
   line-height: 16.41px;
   color: #FFFFFF;
   opacity: 0.6;
+}
+
+.about__title{
+  margin-bottom: 30px;
 }
 
 .author__name-author {
@@ -58,6 +86,14 @@ a {
   opacity: 0.6;
 }
 
+.content__author {
+  margin-bottom: 28px;
+}
+
+
+.article__image {
+  margin-bottom: 69px;
+}
 .article__text {
   font-size: 16px;
   font-weight: 400;
@@ -85,4 +121,5 @@ a {
   line-height: 28px;
   color: #FFFFFF;
   opacity: 0.6;
+  padding: 103px 0 77px 0;
 }
