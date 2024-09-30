@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header {
+  margin-bottom: 73px;
+  max-width: 1080px;
+}
+
+.home span {
+  background-image: url('../images/icon.svg');
+  background-color: #4B5563;
+  padding: 6px 12px;
+  border-radius: 3px;
+  margin-right: 11px;
+}
+
+.menu__list {
+  list-style: none;
+}
+
+.about__title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.searching__input {
+  background: #1F2937;
+  opacity: 0.6;
+  border: none;
+  border-radius: 100px;
+  padding: 11px 12px 9px 49px;
+}
+
+.searching__input::placeholder {
+  color: #FFFFFF;
+}
+
+.circle {
+  background-color: #FFFFFF;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  ;
+  opacity: 0.6;
+}
+
+.about {
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.about__specialty,
+.about__date {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.about__title {
+  width: 525px;
+  margin-bottom: 30px;
+}
+
+.author__name-author {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.authort__job-author {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.content__author {
+  margin-bottom: 28px;
+}
+
+.main {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.article__image {
+  margin-bottom: 69px;
+}
+
+.text-area {
+  width: 708px;
+}
+
+.text-area__content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.text-area__content:last-child {
+  margin-bottom: 0;
+}
+
+
+.textstyle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.article__text span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: underline;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  padding: 103px 0 77px 0;
+  text-align: center;
+}
