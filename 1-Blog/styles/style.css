@@ -6,6 +6,8 @@
 body {
   background: linear-gradient(180deg, #374151 0%, #111827 100%);
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 a {
@@ -74,7 +76,7 @@ a {
 }
 
 .about__title {
-  width: 525px;
+  max-width: 525px;
   margin-bottom: 30px;
 }
 
@@ -86,8 +88,6 @@ a {
 }
 
 .authort__job-author {
-  font-size: 14px;
-  font-weight: 400;
   line-height: 28px;
   color: #FFFFFF;
   opacity: 0.6;
@@ -107,12 +107,12 @@ a {
 }
 
 .text-area {
-  width: 708px;
+  max-width: 708px;
 }
 
 .text-area__content {
   font-size: 16px;
-  font-weight: 400;
+
   line-height: 30px;
   color: #FFFFFF;
   margin-bottom: 30px;
@@ -125,21 +125,21 @@ a {
 
 .textstyle {
   font-size: 20px;
-  font-weight: 400;
+
   line-height: 32px;
   color: #FFFFFF;
 }
 
 .article__text span {
   font-size: 16px;
-  font-weight: 400;
+
   line-height: 30px;
   text-decoration: underline;
 }
 
 .footer__copyright {
   font-size: 16px;
-  font-weight: 400;
+
   line-height: 28px;
   color: #FFFFFF;
   opacity: 0.6;
