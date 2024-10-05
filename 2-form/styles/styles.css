@@ -1,13 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: linear-gradient(225deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%),
     linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%), #f39494;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
   box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 10px;
   background-color: #FFFEFE;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 47px;
+  padding: 72px 0 91px 0;
+  max-width: 582px;
+  
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .account__title {
@@ -17,8 +45,9 @@ main {
 }
 
 .enter {
+  display: flex;
+  gap: 6px;
   font-size: 18px;
-  font-weight: 400;
   line-height: 24.51px;
 }
 
@@ -30,16 +59,40 @@ main {
   color: #089FE0;
 }
 
-.company {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 21.79px;
+.form-registration {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  padding: 0 93px 0 95px;
+}
+
+.company-name {
+  background-color: white;
+  border: 1px solid #F5F5F5;
+  padding: 9px 0 9px 11px;
+}
+
+
+.initials {
+  display: flex;
+  gap: 1px;
+  
+}
+
+.initials__item-left {
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+}
+.initials__item-right {
+  border-radius: 0 5px 5px 0;
+  flex: 1;
 }
 
 input {
   background: #F5F5F5;
   border: none;
   border-radius: 5px;
+  padding: 9px 0 9px 11px;
 }
 
 input::placeholder {
@@ -51,25 +104,19 @@ input::placeholder {
   background: #089FE0;
   color: #FFFFFF;
   font-size: 18px;
-  font-weight: 400;
   line-height: 24.51px;
+  padding: 9px 102px;
   border: none;
   border-radius: 10px;
+  background-image: url('../images/Arrow\ 1.svg');
+  background-repeat: no-repeat;
+  background-position: center right 24px;
 }
-
-.agree {
-  font-weight: 400;
-}
-
 
 .agree__confirm {
   font-size: 14px;
   line-height: 19.07px;
   color: #666666;
-}
-
-input[type='checkbox'] {
-  border-radius: 10px;
 }
 
 .agree__conditions {
