@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet">
+    <title>Grid</title>
+  </head>
+  <body>
+    <section class="tariffs container">
+      <div class="description container">
+        <h2 class="description__title">Тарифы</h2>
+        <p class="description__paragraph">Все тарифы имеют полный функционал и отличаются только количеством месяцев и
+          выгодой</p>
+      </div>
+      <div class="cards container">
+        <div class="card">
+          <div class="sales invisible">
+            <p class="sales__price">Выгода <span class="sales__percent">25%</span></p>
+          </div>
+          <div class="conditions">
+            <p class="conditions__term">1 месяц</p>
+            <p class="conditions__info">Тариф подойдёт тем, кто ведёт краткосрочные проекты</p>
+          </div>
+          <div class="subscription">
+            <div class="subscription__item bottom-underline">
+              <p class="subscription__info ">Общая стоимость</p>
+              <p class="subscription__price">1 990 ₽</p>
+            </div>
+            <div class="subscription__item bottom-underline">
+              <p class="subscription__info ">Ваша выгода</p>
+              <p class="subscription__price">0 ₽</p>
+            </div>
+            <div class="subscription__item ">
+              <p class="subscription__info ">Стоимость месяца</p>
+              <p class="subscription__price">1 990 ₽/мес</p>
+            </div>
+          </div>
+          <button class="demo-period">Бесплатно 14 дней</button>
+        </div>
+        <div class="card">
+          <div class="sales">
+            <p class="sales__price">Выгода <span class="sales__percent">25%</span></p>
+          </div>
+          <div class="conditions">
+            <p class="conditions__term">6 месяцев</p>
+            <p class="conditions__info">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт</p>
+          </div>
+          <div class="subscription">
+            <div class="subscription__item bottom-underline">
+              <p class="subscription__info ">Общая стоимость</p>
+              <p class="subscription__price">8 940 ₽</p>
+            </div>
+            <div class="subscription__item bottom-underline">
+              <p class="subscription__info ">Ваша выгода</p>
+              <p class="subscription__price active-price">3 000 ₽</p>
+            </div>
+            <div class="subscription__item ">
+              <p class="subscription__info ">Стоимость месяца</p>
+              <p class="subscription__price">1 490 ₽/мес</p>
+            </div>
+
+          </div>
+          <button class="demo-period">Бесплатно 14 дней</button>
+        </div>
+        <div class="card active-card">
+          <div class="sales">
+            <p class="sales__price">Выгода <span class="sales__percent">25%</span></p>
+          </div>
+          <div class="conditions conditions-margin">
+            <p class="conditions__term">12 месяцев</p>
+            <p class="conditions__info ">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет сэкономить</p>
+          </div>
+          <div class="subscription">
+            <div class="subscription__item white-underline">
+              <p class="subscription__info ">Общая стоимость</p>
+              <p class="subscription__price">11 880 ₽</p>
+            </div>
+            <div class="subscription__item white-underline">
+              <p class="subscription__info ">Ваша выгода</p>
+              <p class="subscription__price active-price">12 000 ₽</p>
+            </div>
+            <div class="subscription__item ">
+              <p class="subscription__info ">Стоимость месяца</p>
+              <p class="subscription__price">990 ₽/мес</p>
+            </div>
+
+          </div>
+          <button class="demo-period activ-button">Бесплатно 14 дней</button>
+        </div>
+
+      </div>
+    </section>
+  </body>
+</html>
