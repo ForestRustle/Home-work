@@ -1,0 +1,39 @@
+@import global.sass
+
+.cards
+  display: grid
+  justify-content: center
+  grid-template-columns: repeat(auto-fit, minmax(328px, 369px))
+  gap: 24px 25px
+  margin: 0 16px
+
+.card
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  gap: 16px
+  padding: 48px 40px
+  box-shadow: 0px 0px 32px 0px #4E5D7C29
+
+@media (max-width:1080px)
+  .cards
+    grid-template-columns: repeat(auto-fit,minmax(328px,1fr))
+
+@media (max-width: 576px)
+  .cards
+    display: flex
+    flex-wrap: wrap
+
+@media (max-width:750px)
+  .description
+    text-align: center
+
+@media (max-width:720px)
+  .description__title
+    text-align: center
+
+@media (max-width:640px)
+  .description__title
+    font-size: 36px
+  .description__paragraph
+    text-align: left
