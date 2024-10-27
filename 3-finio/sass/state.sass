@@ -1,4 +1,7 @@
-@import global.sass
+@import 'global.sass'
+
+.reversed-slide
+  flex-direction: row-reverse
 .activ-button
   background: $white-text
   color: $primary-blue
@@ -29,3 +32,14 @@
   border-radius: 8px
   margin-left: -14px
   margin-right: 16px
+
+.warning::before
+  content: url('../images/logo/warning-marker.svg')
+.accept::before
+  content: url(../images/logo/accept-marker.svg)
+
+.column-flex
+  display: flex
+  align-items: flex-start
+  flex-direction: column
+  gap: 20px

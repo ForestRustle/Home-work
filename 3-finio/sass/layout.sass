@@ -1,12 +1,66 @@
-@import global.sass
+@import 'global.sass'
 
+.header
+  background-color: $primary-blue
+  &__top
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 40px
+
+.menu__list-items
+  display: flex
+  gap: 32px
+  align-items: center
+
+.header__middle-wrapper
+  display: flex
+  overflow: hidden
+
+.about-product
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  min-width: 452px
+  gap: 40px
+  &__title
+    font-size: 40px
+    font-weight: 800
+    line-height: 48px
+    color: $white-text
+
+.advantages
+  // margin-bottom: 80px
+  padding: 80px 0
+
+.comparison
+  padding: 120px 0
+  background-color: $primary-blue
+
+.images-wrapper
+  position: relative
+  padding-top: 64px
+
+.collation
+  display: flex
+  justify-content: center
+  gap: 24px
+
+.mobile
+  padding-top: 80px
+
+.support
+  margin-bottom: 80px
+
+.width-283
+  max-width: 283px
+// Cards start
 .cards
   display: grid
   justify-content: center
   grid-template-columns: repeat(auto-fit, minmax(328px, 369px))
   gap: 24px 25px
   margin: 0 16px
-
 .card
   display: flex
   flex-direction: column
@@ -14,6 +68,12 @@
   gap: 16px
   padding: 48px 40px
   box-shadow: 0px 0px 32px 0px #4E5D7C29
+// cards end
+.footer
+  background: $footer-backgroung
+  padding-top: 80px
+
+
 
 @media (max-width:1080px)
   .cards

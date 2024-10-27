@@ -1,1 +1,104 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:"Inter",sans-serif}.container{max-width:1392px;margin:0 auto}.activ-button{background:#fff;color:#357EFE}.sales{background:#1ABC9C;color:#fff;border-radius:8px;max-width:124px;padding:4px 16px}.bottom-underline{border-bottom:1px solid rgba(78,93,124,0.0784314)}.white-underline{border-bottom:1px solid #FFFFFF29}.invisible{opacity:0}.conditions-margin{margin-bottom:15px}.active-price{background:#FFC736;padding:8px 16px;color:#fff;border-radius:8px;margin-left:-14px;margin-right:16px}
+/* line 17, ../Home Work/3-finio/sass/global.sass */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter",sans-serif;
+}
+
+/* line 23, ../Home Work/3-finio/sass/global.sass */
+body {
+  font-size: 17px;
+}
+
+/* line 25, ../Home Work/3-finio/sass/global.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 28, ../Home Work/3-finio/sass/global.sass */
+ul {
+  list-style: none;
+}
+
+/* line 31, ../Home Work/3-finio/sass/global.sass */
+.container {
+  max-width: 1392px;
+  margin: 0 auto;
+}
+
+/* line 35, ../Home Work/3-finio/sass/global.sass */
+.small-container {
+  max-width: 1156px;
+  margin: 0 auto;
+}
+
+/* line 3, ../Home Work/3-finio/sass/state.sass */
+.reversed-slide {
+  flex-direction: row-reverse;
+}
+
+/* line 5, ../Home Work/3-finio/sass/state.sass */
+.activ-button {
+  background: #FFFFFF;
+  color: #357EFE;
+}
+
+/* line 9, ../Home Work/3-finio/sass/state.sass */
+.sales {
+  background: #1ABC9C;
+  color: #FFFFFF;
+  border-radius: 8px;
+  max-width: 124px;
+  padding: 4px 16px;
+}
+
+/* line 16, ../Home Work/3-finio/sass/state.sass */
+.bottom-underline {
+  border-bottom: 1px solid #4E5D7C14;
+}
+
+/* line 19, ../Home Work/3-finio/sass/state.sass */
+.white-underline {
+  border-bottom: 1px solid #FFFFFF29;
+}
+
+/* line 22, ../Home Work/3-finio/sass/state.sass */
+.invisible {
+  opacity: 0;
+}
+
+/* line 25, ../Home Work/3-finio/sass/state.sass */
+.conditions-margin {
+  margin-bottom: 15px;
+}
+
+/* line 28, ../Home Work/3-finio/sass/state.sass */
+.active-price {
+  background: #FFC736;
+  padding: 8px 16px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: -14px;
+  margin-right: 16px;
+}
+
+/* line 36, ../Home Work/3-finio/sass/state.sass */
+.warning::before {
+  content: url("../images/logo/warning-marker.svg");
+}
+
+/* line 38, ../Home Work/3-finio/sass/state.sass */
+.accept::before {
+  content: url(../images/logo/accept-marker.svg);
+}
+
+/* line 41, ../Home Work/3-finio/sass/state.sass */
+.column-flex {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*# sourceMappingURL=state.css.map */

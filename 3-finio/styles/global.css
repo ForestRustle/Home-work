@@ -1,1 +1,36 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:"Inter",sans-serif}.container{max-width:1392px;margin:0 auto}
+/* line 17, ../Home Work/3-finio/sass/global.sass */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter",sans-serif;
+}
+
+/* line 23, ../Home Work/3-finio/sass/global.sass */
+body {
+  font-size: 17px;
+}
+
+/* line 25, ../Home Work/3-finio/sass/global.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 28, ../Home Work/3-finio/sass/global.sass */
+ul {
+  list-style: none;
+}
+
+/* line 31, ../Home Work/3-finio/sass/global.sass */
+.container {
+  max-width: 1392px;
+  margin: 0 auto;
+}
+
+/* line 35, ../Home Work/3-finio/sass/global.sass */
+.small-container {
+  max-width: 1156px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=global.css.map */
