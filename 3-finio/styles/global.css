@@ -1,36 +1,51 @@
-/* line 17, ../Home Work/3-finio/sass/global.sass */
+:root {
+  --color-paragraph: #4E5D7C80;
+  --color-subscription: #4E5D7C;
+  --color-underline: #4E5D7C14;
+  --color-sales: #1ABC9C;
+  --white-text: #FFFFFF;
+  --opacity-white-text: #FFFFFFCC;
+  --active-card: #FFFFFF99;
+  --primary-blue: #357EFE;
+  --black-color: #000000;
+  --footer-backgroung: #1A1D25;
+  --text-footer70: #FFFFFFB2;
+  --text-footer80: #FFFFFF80;
+  --color-active-card: #FFC736;
+  --color-white-underline: #FFFFFF29;
+  --color-background-sales: #1ABC9C;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-/* line 23, ../Home Work/3-finio/sass/global.sass */
 body {
   font-size: 17px;
 }
 
-/* line 25, ../Home Work/3-finio/sass/global.sass */
 a {
   text-decoration: none;
 }
 
-/* line 28, ../Home Work/3-finio/sass/global.sass */
+img {
+  position: relative;
+}
+
 ul {
   list-style: none;
 }
 
-/* line 31, ../Home Work/3-finio/sass/global.sass */
 .container {
   max-width: 1392px;
   margin: 0 auto;
 }
 
-/* line 35, ../Home Work/3-finio/sass/global.sass */
 .small-container {
   max-width: 1156px;
   margin: 0 auto;
 }
 
-/*# sourceMappingURL=global.css.map */

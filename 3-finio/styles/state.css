@@ -1,104 +1,63 @@
-/* line 17, ../Home Work/3-finio/sass/global.sass */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter",sans-serif;
-}
-
-/* line 23, ../Home Work/3-finio/sass/global.sass */
-body {
-  font-size: 17px;
-}
-
-/* line 25, ../Home Work/3-finio/sass/global.sass */
-a {
-  text-decoration: none;
-}
-
-/* line 28, ../Home Work/3-finio/sass/global.sass */
-ul {
-  list-style: none;
-}
-
-/* line 31, ../Home Work/3-finio/sass/global.sass */
-.container {
-  max-width: 1392px;
-  margin: 0 auto;
-}
-
-/* line 35, ../Home Work/3-finio/sass/global.sass */
-.small-container {
-  max-width: 1156px;
-  margin: 0 auto;
-}
-
-/* line 3, ../Home Work/3-finio/sass/state.sass */
 .reversed-slide {
   flex-direction: row-reverse;
+  justify-content: center
 }
 
-/* line 5, ../Home Work/3-finio/sass/state.sass */
 .activ-button {
-  background: #FFFFFF;
-  color: #357EFE;
+  background: var(--white-text);
+  color: var(--primary-blue);
 }
 
-/* line 9, ../Home Work/3-finio/sass/state.sass */
 .sales {
-  background: #1ABC9C;
-  color: #FFFFFF;
+  background: var(--color-background-sales);
+  color: var(--white-text);
   border-radius: 8px;
   max-width: 124px;
   padding: 4px 16px;
 }
 
-/* line 16, ../Home Work/3-finio/sass/state.sass */
+
 .bottom-underline {
-  border-bottom: 1px solid #4E5D7C14;
+  border-bottom: 1px solid var(--color-underline);
 }
 
-/* line 19, ../Home Work/3-finio/sass/state.sass */
+
 .white-underline {
-  border-bottom: 1px solid #FFFFFF29;
+  border-bottom: 1px solid var(--color-white-underline);
 }
 
-/* line 22, ../Home Work/3-finio/sass/state.sass */
+
 .invisible {
   opacity: 0;
 }
 
-/* line 25, ../Home Work/3-finio/sass/state.sass */
 .conditions-margin {
   margin-bottom: 15px;
 }
 
-/* line 28, ../Home Work/3-finio/sass/state.sass */
+
 .active-price {
-  background: #FFC736;
+  background: var(--color-active-card);
   padding: 8px 16px;
-  color: #FFFFFF;
+  color: var(--white-text);
   border-radius: 8px;
   margin-left: -14px;
   margin-right: 16px;
 }
 
-/* line 36, ../Home Work/3-finio/sass/state.sass */
+
 .warning::before {
   content: url("../images/logo/warning-marker.svg");
 }
 
-/* line 38, ../Home Work/3-finio/sass/state.sass */
+
 .accept::before {
   content: url(../images/logo/accept-marker.svg);
 }
 
-/* line 41, ../Home Work/3-finio/sass/state.sass */
 .column-flex {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 20px;
 }
-
-/*# sourceMappingURL=state.css.map */

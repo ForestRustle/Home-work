@@ -1,82 +1,39 @@
-/* line 17, ../Home Work/3-finio/sass/global.sass */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter",sans-serif;
-}
-
-/* line 23, ../Home Work/3-finio/sass/global.sass */
-body {
-  font-size: 17px;
-}
-
-/* line 25, ../Home Work/3-finio/sass/global.sass */
-a {
-  text-decoration: none;
-}
-
-/* line 28, ../Home Work/3-finio/sass/global.sass */
-ul {
-  list-style: none;
-}
-
-/* line 31, ../Home Work/3-finio/sass/global.sass */
-.container {
-  max-width: 1392px;
-  margin: 0 auto;
-}
-
-/* line 35, ../Home Work/3-finio/sass/global.sass */
-.small-container {
-  max-width: 1156px;
-  margin: 0 auto;
-}
-
-/* line 3, ../Home Work/3-finio/sass/modules.sass */
 .header {
-  background-color: #357EFE;
+  background: linear-gradient(-9deg, rgba(255, 255, 255, 1) 28%, rgba(53, 126, 254, 1) 28%);
 }
 
-/* line 5, ../Home Work/3-finio/sass/modules.sass */
 .header__top {
   margin-bottom: 96px;
 }
 
-/* line 8, ../Home Work/3-finio/sass/modules.sass */
 .logo__link {
   font-size: 36px;
   font-weight: 900;
   line-height: 50.4px;
-  color: #FFFFFF;
+  color: var(--white-text);
 }
 
-/* line 14, ../Home Work/3-finio/sass/modules.sass */
 .menu__link {
-  color: #FFFFFFCC;
+  color: var(--opacity-white-text);
   font-size: 18px;
   font-weight: 500;
   line-height: 25.2px;
   cursor: pointer;
 }
 
-/* line 21, ../Home Work/3-finio/sass/modules.sass */
 .tariffs {
   margin-bottom: 80px;
 }
 
-/* line 23, ../Home Work/3-finio/sass/modules.sass */
 .menu__link:hover {
-  color: #FFFFFF;
+  color: var(--white-text);
 }
 
-/* line 25, ../Home Work/3-finio/sass/modules.sass */
 .description {
   text-align: center;
   margin-bottom: 40px;
 }
 
-/* line 28, ../Home Work/3-finio/sass/modules.sass */
 .description__title {
   font-size: 48px;
   font-weight: 600;
@@ -84,23 +41,20 @@ ul {
   margin-bottom: 24px;
 }
 
-/* line 33, ../Home Work/3-finio/sass/modules.sass */
 .description__paragraph {
   font-size: 17px;
   font-weight: 500;
   line-height: 23.8px;
-  color: #4E5D7C80;
+  color: var(--color-paragraph);
   margin-bottom: 40px;
 }
 
-/* line 40, ../Home Work/3-finio/sass/modules.sass */
 .marketplaces {
   margin-top: 80px;
   max-width: 334px;
   width: 100%;
 }
 
-/* line 45, ../Home Work/3-finio/sass/modules.sass */
 .advantages {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
@@ -109,7 +63,6 @@ ul {
   padding-bottom: 80px;
 }
 
-/* line 52, ../Home Work/3-finio/sass/modules.sass */
 .advantages-item {
   display: flex;
   align-items: center;
@@ -117,48 +70,42 @@ ul {
   font-size: 24px;
   font-weight: 700;
   line-height: 28.8px;
-  color: #000000;
+  color: var(--black-color);
   max-width: 408px;
 }
 
-/* line 63, ../Home Work/3-finio/sass/modules.sass */
 .horizen-line {
-  border-bottom: 1px solid #4E5D7C14;
+  border-bottom: 1px solid var(--color-underline);
   margin-bottom: 80px;
 }
 
-/* line 67, ../Home Work/3-finio/sass/modules.sass */
 .main {
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
-  color: #000000;
+  color: var(--black-color);
 }
 
-/* line 74, ../Home Work/3-finio/sass/modules.sass */
 .comparison__header {
   text-align: center;
 }
 
-/* line 76, ../Home Work/3-finio/sass/modules.sass */
 .comparison__title {
   font-size: 48px;
   font-weight: 600;
   line-height: 57.6px;
-  color: #FFFFFF;
+  color: var(--white-text);
   padding-bottom: 24px;
 }
 
-/* line 82, ../Home Work/3-finio/sass/modules.sass */
 .comparison__text {
   font-size: 18px;
   font-weight: 500;
   line-height: 25.2px;
-  color: #FFFFFFCC;
+  color: var(--opacity-white-text);
   padding-bottom: 40px;
 }
 
-/* line 89, ../Home Work/3-finio/sass/modules.sass */
 .slide {
   display: flex;
   align-items: center;
@@ -168,7 +115,6 @@ ul {
   justify-content: flex-end;
 }
 
-/* line 96, ../Home Work/3-finio/sass/modules.sass */
 .slide__info {
   display: flex;
   flex-direction: column;
@@ -176,106 +122,114 @@ ul {
   max-width: 482px;
 }
 
-/* line 102, ../Home Work/3-finio/sass/modules.sass */
 .slide__title {
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
-  color: #000000;
+  color: var(--black-color);
 }
 
-/* line 107, ../Home Work/3-finio/sass/modules.sass */
 .slide__text {
   font-size: 18px;
   font-weight: 500;
   line-height: 25.2px;
-  color: #4E5D7C80;
+  color: var(--color-paragraph);
 }
 
-/* line 113, ../Home Work/3-finio/sass/modules.sass */
+.slide__image > img {
+  display: block;
+  width: 100%;
+}
+
+.support__wrapper > img {
+  display: block;
+  width: 100%;
+}
+
 .images-wrapper {
   position: relative;
   margin-bottom: 64px;
 }
 
-/* line 117, ../Home Work/3-finio/sass/modules.sass */
 .left-image {
   position: absolute;
   top: 96px;
   left: 0;
   z-index: 2;
+
 }
 
-/* line 123, ../Home Work/3-finio/sass/modules.sass */
+.right-image {
+  width: 100%;
+}
+
+.images-wrapper__img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
 .images-wrapper::before {
-  content: url("../images/logo/Scroll.svg");
+  content: url('../images/logo/Scroll.svg');
   cursor: pointer;
   position: absolute;
-  left: 52%;
+  left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 4;
 }
 
-/* line 132, ../Home Work/3-finio/sass/modules.sass */
 .images-wrapper::after {
   content: '';
   position: absolute;
   top: 0;
   left: 52%;
   transform: translateX(-50%);
-  background: #357EFE;
+  background: var(--primary-blue);
   width: 2px;
   height: 100%;
   z-index: 3;
 }
 
-/* line 142, ../Home Work/3-finio/sass/modules.sass */
 .collation {
   display: flex;
   gap: 24px 71px;
 }
 
-/* line 145, ../Home Work/3-finio/sass/modules.sass */
 .collation__wrapper {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-/* line 149, ../Home Work/3-finio/sass/modules.sass */
 .collation__title {
   font-size: 24px;
   font-weight: 700;
   line-height: 28.8px;
-  color: #FFFFFF;
+  color: var(--white-text);
 }
 
-/* line 154, ../Home Work/3-finio/sass/modules.sass */
 .collation__item {
   font-size: 18px;
   font-weight: 500;
   line-height: 25.2px;
-  color: #FFFFFFCC;
+  color: var(--opacity-white-text);
   display: flex;
   gap: 8px;
 }
 
-/* line 162, ../Home Work/3-finio/sass/modules.sass */
 .mobile-image {
   display: block;
   width: 100%;
   margin-bottom: 80px;
 }
 
-/* line 166, ../Home Work/3-finio/sass/modules.sass */
 .support {
   margin-bottom: 80px;
 }
 
-/* line 168, ../Home Work/3-finio/sass/modules.sass */
 .support__wrapper {
-  background-color: #357EFE;
+  background-color: var(--primary-blue);
   border-radius: 16px;
   display: flex;
   justify-content: space-evenly;
@@ -284,7 +238,6 @@ ul {
   margin-bottom: 80px;
 }
 
-/* line 177, ../Home Work/3-finio/sass/modules.sass */
 .social-wrapper {
   display: flex;
   flex-direction: column;
@@ -292,56 +245,42 @@ ul {
   max-width: 450px;
 }
 
-/* line 183, ../Home Work/3-finio/sass/modules.sass */
 .support-client__title {
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
-  color: #FFFFFF;
+  color: var(--white-text);
 }
 
-/* line 189, ../Home Work/3-finio/sass/modules.sass */
 .support-text {
   font-weight: 500;
   line-height: 23.8px;
-  color: #FFFFFFCC;
+  color: var(--opacity-white-text);
 }
 
-/* line 193, ../Home Work/3-finio/sass/modules.sass */
-.contact {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-/* line 197, ../Home Work/3-finio/sass/modules.sass */
-.contact__finio {
+.contact .contact__finio {
   font-weight: 500;
   line-height: 23.8px;
-  color: #FFFFFF;
+  color: var(--white-text);
 }
 
-/* line 202, ../Home Work/3-finio/sass/modules.sass */
 .reviews {
   margin-bottom: 80px;
 }
 
-/* line 204, ../Home Work/3-finio/sass/modules.sass */
 .reviews__title {
   font-size: 48px;
   font-weight: 600;
   line-height: 57.6px;
-  color: #000000;
+  color: var(--black-color);
   text-align: center;
   margin-bottom: 40px;
 }
 
-/* line 211, ../Home Work/3-finio/sass/modules.sass */
 .swiper {
   max-width: 1156px;
 }
 
-/* line 214, ../Home Work/3-finio/sass/modules.sass */
 .subscription__item {
   display: grid;
   grid-template-columns: auto 107px;
@@ -350,7 +289,6 @@ ul {
   padding: 16px 0;
 }
 
-/* line 221, ../Home Work/3-finio/sass/modules.sass */
 .slider {
   position: relative;
   display: flex;
@@ -361,7 +299,6 @@ ul {
   border-radius: 8px;
 }
 
-/* line 229, ../Home Work/3-finio/sass/modules.sass */
 .slider__comment {
   display: flex;
   flex-direction: column;
@@ -371,11 +308,10 @@ ul {
   position: relative;
   overflow: hidden;
   padding: 48px 24px 48px 104px;
-  color: #FFFFFF;
-  background-color: #357EFE;
+  color: var(--white-text);
+  background-color: #357efe;
 }
 
-/* line 240, ../Home Work/3-finio/sass/modules.sass */
 .slider__title {
   font-size: 28px;
   font-weight: 700;
@@ -383,13 +319,16 @@ ul {
   padding-bottom: 24px;
 }
 
-/* line 245, ../Home Work/3-finio/sass/modules.sass */
 .slider__author {
   font-weight: 700;
   line-height: 23.8px;
 }
 
-/* line 249, ../Home Work/3-finio/sass/modules.sass */
+.img-client {
+  display: block;
+  width: 100%;
+}
+
 .arrow-left {
   position: absolute;
   opacity: 0.6;
@@ -400,7 +339,6 @@ ul {
   cursor: pointer;
 }
 
-/* line 257, ../Home Work/3-finio/sass/modules.sass */
 .arrow-right {
   position: absolute;
   opacity: 0.6;
@@ -408,19 +346,19 @@ ul {
   transform: translateY(-50%);
   right: 0;
   cursor: pointer;
+  z-index: 1;
 }
 
-/* line 265, ../Home Work/3-finio/sass/modules.sass */
+
 .arrow-hover:hover {
   opacity: 1;
 }
 
-/* line 268, ../Home Work/3-finio/sass/modules.sass */
+
 .conditions {
   margin-bottom: 40px;
 }
 
-/* line 270, ../Home Work/3-finio/sass/modules.sass */
 .conditions__term {
   margin-bottom: 16px;
   font-size: 32px;
@@ -428,14 +366,12 @@ ul {
   line-height: 38.4px;
 }
 
-/* line 275, ../Home Work/3-finio/sass/modules.sass */
 .conditions__info {
   font-weight: 500;
   line-height: 23.8px;
-  color: #4E5D7C80;
+  color: var(--color-paragraph);
 }
 
-/* line 280, ../Home Work/3-finio/sass/modules.sass */
 .demo-period {
   font-size: 17px;
   line-height: 23.8px;
@@ -443,66 +379,61 @@ ul {
   padding: 12px 32px;
   border: none;
   border-radius: 47px;
-  background: #357EFE;
-  color: #FFFFFF;
+  background: #357efe;
+  color: var(--white-text);
+  ;
   cursor: pointer;
 }
 
-/* line 291, ../Home Work/3-finio/sass/modules.sass */
 .active-card {
-  background: #357EFE;
+  background: #357efe;
 }
 
-/* line 293, ../Home Work/3-finio/sass/modules.sass */
 .active-card [class*='conditions__'] {
-  color: #FFFFFF;
+  color: var(--white-text);
+  ;
 }
 
-/* line 295, ../Home Work/3-finio/sass/modules.sass */
+
 .active-card [class*='__info'] {
-  color: #FFFFFF99;
+  color: var(--active-card);
 }
 
-/* line 297, ../Home Work/3-finio/sass/modules.sass */
 .active-card [class*='subscription__'] {
-  color: #FFFFFF;
+  color: var(--white-text);
 }
 
-/* line 300, ../Home Work/3-finio/sass/modules.sass */
 .block {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #4E5D7C14;
+  border-bottom: 1px solid var(--color-underline);
   padding-bottom: 40px;
 }
 
-/* line 306, ../Home Work/3-finio/sass/modules.sass */
 .block__text {
   font-weight: 500;
   line-height: 23.8px;
-  color: #FFFFFFB2;
+  color: var(--text-footer70);
 }
 
-/* line 311, ../Home Work/3-finio/sass/modules.sass */
 .block-menu {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-/* line 315, ../Home Work/3-finio/sass/modules.sass */
+
 .block-menu__link {
   font-weight: 500;
   line-height: 23.8px;
-  color: #FFFFFF80;
+  color: var(--text-footer80);
 }
 
-/* line 319, ../Home Work/3-finio/sass/modules.sass */
+
 .block-menu__details {
-  color: #FFFFFFB2;
+  color: var(--text-footer70);
 }
 
-/* line 322, ../Home Work/3-finio/sass/modules.sass */
 .footer__bottom {
   display: flex;
   align-items: center;
@@ -510,17 +441,62 @@ ul {
   padding: 40px 0;
 }
 
-/* line 328, ../Home Work/3-finio/sass/modules.sass */
 .payment {
   display: flex;
   gap: 16px;
 }
 
-/* line 332, ../Home Work/3-finio/sass/modules.sass */
 .copyright {
   font-weight: 500;
   line-height: 23.8px;
-  color: #FFFFFFB2;
+  color: var(--text-footer70);
 }
 
-/*# sourceMappingURL=modules.css.map */
+@media (max-width: 1280px) {
+  .header__top {
+    padding: 30px 20px;
+  }
+
+  .header__middle-wrapper,
+  .slide,
+  .mobile,
+  .support,
+  .footer {
+    padding: 0 20px;
+  }
+
+  .advantages {
+    padding: 80px 20px;
+  }
+
+}
+
+@media (max-width: 876px) {
+  .header {
+    background: linear-gradient(346deg, rgba(255, 255, 255, 1) 0%, rgba(53, 126, 254, 1) 0%);
+  }
+
+  .arrow-left,
+  .arrow-right {
+    display: none;
+  }
+
+  .slider {
+    min-width: auto;
+    flex-direction: column;
+  }
+
+  .slider__comment {
+    overflow: visible;
+  }
+
+  .block {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer__bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
