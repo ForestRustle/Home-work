@@ -3,10 +3,10 @@
   --color-subscription: #4E5D7C;
   --color-underline: #4E5D7C14;
   --color-sales: #1ABC9C;
-  --white-text: #FFFFFF;
-  --opacity-white-text: #FFFFFFCC;
+  --whiteText: #FFFFFF;
+  --opacityWhiteText: #FFFFFFCC;
   --active-card: #FFFFFF99;
-  --primary-blue: #357EFE;
+  --primaryBlue: #357EFE;
   --black-color: #000000;
   --footer-backgroung: #1A1D25;
   --text-footer70: #FFFFFFB2;
@@ -31,10 +31,6 @@ a {
   text-decoration: none;
 }
 
-img {
-  position: relative;
-}
-
 ul {
   list-style: none;
 }
@@ -48,4 +44,3 @@ ul {
   max-width: 1156px;
   margin: 0 auto;
 }
-

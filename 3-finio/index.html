@@ -10,10 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet">
     <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/layout.css">
-    <link rel="stylesheet" href="./styles/modules.css">
     <link rel="stylesheet" href="./styles/theme.css">
     <link rel="stylesheet" href="./styles/state.css">
+    <link rel="stylesheet" href="./styles/components.css">
     <title>FINIO</title>
   </head>
   <body>
@@ -21,7 +20,7 @@
       <div class="container">
         <div class="header__top">
           <div class="logo">
-            <a href="#" class="logo__link">FINIO</a>
+            <a href="#" class="logo__link textSize-36">FINIO</a>
           </div>
           <nav class="menu">
             <ul class="menu__list-items">
@@ -32,12 +31,12 @@
             </ul>
           </nav>
           <img class="burger" src="./images/logo/burger.svg" alt="">
-          <button class="demo-period activ-button ">Личный кабинет</button>
+          <button class="visible-button button textSize-17  ">Личный кабинет</button>
         </div>
         <div class="header__middle-wrapper">
           <div class="about-product">
             <h1 class="about-product__title">Простой финансовый учёт для продавцов на маркетплейсах</h1>
-            <button class="demo-period activ-button">Попробовать 14 дней бесплатно</button>
+            <button class="button textSize-17">Попробовать 14 дней бесплатно</button>
             <img src="./images/logo/logo marketplases.svg" alt="Логотипы маркетплейсов" class="marketplaces">
           </div>
           <img class="image-laptop" src="./images/img/laptop.png" alt="Картинка презентации на ноутбуке">
@@ -45,7 +44,7 @@
       </div>
     </header>
 
-    <section class="container advantages  ">
+    <section class="container advantages">
       <div class="advantages-item">
         <img src="./images/logo/Analytics.svg" alt="Картинка графика">
         <p class="advantages__text">Анализ прибыли по товарам и брендам</p>
@@ -56,13 +55,10 @@
       </div>
       <div class="advantages-item">
         <img src="./images/logo/logo rubbles.svg" alt="Логотип российского рубля">
-        <p class="advantages__text">От 990 рублей в месяц <br>с полным функционалом</p>
+        <p class="advantages__text">От 990 рублей в месяц с полным функционалом</p>
       </div>
     </section>
-    <!-- Слайды -->
-    <main class="main container">
-      <div class="horizen-line"></div>
-      <!--  -->
+    <main class="main container line">
       <div class="slide">
         <div class="slide__info">
           <h2 class="slide__title">Предотвращайте кассовые разрывы</h2>
@@ -74,9 +70,7 @@
           <img src="./images/slides/first slide.png" alt="Слайд финансового баланса">
         </div>
       </div>
-      <!--  -->
-      <div class="horizen-line"></div>
-      <div class="slide reversed-slide">
+      <div class="slide reversed-slide line">
         <div class="slide__info">
           <h2 class="slide__title">Отчёты о прибыли и убытках всегда под рукой</h2>
           <p class="slide__text">Получите полную информацию о состоянии вашего бизнеса, включающую все необходимые
@@ -87,9 +81,7 @@
           <img src="./images/slides/second slide.png" alt="Слайд отчёты о прибыли и убытках">
         </div>
       </div>
-      <!--  -->
-      <div class="horizen-line"></div>
-      <div class="slide">
+      <div class="slide line">
         <div class="slide__info">
           <h2 class="slide__title">Какие товары приносят прибыль</h2>
           <p class="slide__text">Находите точки роста, делайте упор на рентабельные товары и увеличивайте свой доход</p>
@@ -98,9 +90,7 @@
           <img src="./images/slides/third slide.png" alt="Слайд товары приносящих прибыль">
         </div>
       </div>
-      <!--  -->
-      <div class="horizen-line"></div>
-      <div class="slide reversed-slide">
+      <div class="slide reversed-slide line">
         <div class="slide__info">
           <h2 class="slide__title">Сокращайте лишние расходы</h2>
           <p class="slide__text">Анализируйте расходы, убирать ненужные издержки и находите возможности повышать
@@ -111,14 +101,14 @@
         </div>
       </div>
     </main>
-    <section class="comparison ">
+    <section class="comparison">
       <div class="small-container">
         <div class="comparison__header">
           <h2 class="comparison__title">Экономьте время и нервы на учете</h2>
           <p class="comparison__text">Автоматическая синхронизация данных с маркетплейсов позволит вам мгновенно
             получать все важный показатели бизнеса на одном экране. А с помощью мобильной версии вы сможете вносить
             расходы всего пару кликов</p>
-          <button class="demo-period activ-button ">Попробовать 14 дней бесплатно</button>
+          <button class="button textSize-17">Попробовать 14 дней бесплатно</button>
         </div>
         <div class="images-wrapper ">
           <div class="left-image">
@@ -145,8 +135,7 @@
           </div>
         </div>
     </section>
-    <!-- сервера -->
-    <section class="container advantages horizen-line">
+    <section class="container advantages">
       <div class="advantages-item column-flex">
         <img src="./images/logo/logo-servers.svg" alt="Картинка графика">
         <p class="advantages__text">Надёжные сервера на территории России</p>
@@ -165,8 +154,7 @@
           открыли доступ</p>
       </div>
     </section>
-    <!--  -->
-    <section class="mobile container">
+    <section class="mobile container line">
       <div class="description ">
         <h2 class="description__title">Мобильная версия</h2>
         <p class="description__paragraph">Пользоваться всем функционалом сервиса удобно в любом месте и с любых
@@ -174,11 +162,12 @@
       </div>
       <img class="mobile-image" src="./images/img/mobile-version.png" alt="">
     </section>
-    <!--  -->
     <section class="support">
       <div class="container">
         <div class="support__wrapper">
-          <img src="./images/img/photo-client.png" alt="">
+          <div class="support__photo">
+            <img src="./images/img/photo-client.png" alt="Поддержка клиентов">
+          </div>
           <div class="social-wrapper">
             <h3 class="support-client__title">Поддержка клиентов</h3>
             <p class="support-text">Мы всегда готовы ответить на любые вопросы в онлайн чате или по телефону.
@@ -201,7 +190,6 @@
         </div>
       </div>
     </section>
-    <!-- Тарифная сетка -->
     <section class="tariffs ">
       <div class="container">
         <div class="description ">
@@ -232,7 +220,7 @@
                 <p class="subscription__price">1 990 ₽/мес</p>
               </div>
             </div>
-            <button class="demo-period">Бесплатно 14 дней</button>
+            <button class="button white-button textSize-17">Бесплатно 14 дней</button>
           </div>
           <div class="card">
             <div class="sales">
@@ -257,63 +245,61 @@
               </div>
 
             </div>
-            <button class="demo-period">Бесплатно 14 дней</button>
+            <button class="button white-button textSize-17">Бесплатно 14 дней</button>
           </div>
           <div class="card active-card">
             <div class="sales">
               <p class="sales__price">Выгода <span class="sales__percent">25%</span></p>
             </div>
             <div class="conditions conditions-margin">
-              <p class="conditions__term">12 месяцев</p>
-              <p class="conditions__info ">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет сэкономить
+              <p class="conditions__term white-title">12 месяцев</p>
+              <p class="conditions__info textActiveCard">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет сэкономить
               </p>
             </div>
-            <div class="subscription">
+            <div class="subscription ">
               <div class="subscription__item white-underline">
-                <p class="subscription__info ">Общая стоимость</p>
-                <p class="subscription__price">11 880 ₽</p>
+                <p class="subscription__info textActiveCard">Общая стоимость</p>
+                <p class="subscription__price textActiveCard">11 880 ₽</p>
               </div>
               <div class="subscription__item white-underline">
-                <p class="subscription__info ">Ваша выгода</p>
+                <p class="subscription__info textActiveCard">Ваша выгода</p>
                 <p class="subscription__price active-price">12 000 ₽</p>
               </div>
-              <div class="subscription__item ">
-                <p class="subscription__info ">Стоимость месяца</p>
-                <p class="subscription__price">990 ₽/мес</p>
+              <div class="subscription__item textActiveCard">
+                <p class="subscription__info textActiveCard">Стоимость месяца</p>
+                <p class="subscription__price textActiveCard">990 ₽/мес</p>
               </div>
-
             </div>
-            <button class="demo-period activ-button">Бесплатно 14 дней</button>
+            <button class="button blue-button textSize-17">Бесплатно 14 дней</button>
           </div>
         </div>
       </div>
     </section>
-    <!-- Конец тарифной сетки -->
-    <!-- Slider -->
-    <section class="reviews ">
-      <div class="small-container">
+    <section class="reviews small-container">
         <h3 class="reviews__title">
           Отзывы
         </h3>
         <div class="slider">
-          <img class="arrow-left arrow-hover" src="./images/logo/arrow left.svg" alt="Стрелка влево">
+          <img class="slider-dotes" src="./images/logo/slider-dotes.svg" alt="">
           <div class="slider__comment">
             <p class="slider__title">Впервые за долгое время увидела свои расходы и доходы как на ладони.</p>
             <p class="slider__author">Дана Валеева</p>
             <p class="slider__job">Продавец Wildberries</p>
           </div>
           <div class="slider__img">
-            <img class="arrow-right arrow-hover" src="./images/logo/arrow right.svg" alt="Стрелка вправо">
             <img class="img-client" src="./images/img/client img.png" alt="Фото клиента">
           </div>
+          <img class="arrow-left arrow-visible" src="./images/logo/arrow left.svg" alt="Стрелка влево">
+          <img class="arrow-right arrow-visible" src="./images/logo/arrow right.svg" alt="Стрелка вправо">
         </div>
-      </div>
     </section>
     <footer class="footer">
       <div class="container">
         <div class="block">
-          <div class="block-menu width-283">
-            <a href="#" class="logo__link">FINIO</a>
+          <div class="block-menu width-283 logo-gap">
+            <div class="logo">
+              <a href="#" class="logo__link textSize-36">FINIO</a>
+            </div>
             <p class="block__text">Простой финансовый учёт для продавцов на маркетплейсах</p>
           </div>
           <div class="block-menu">
@@ -332,12 +318,12 @@
             <p class="block-menu__details">ИП Ларичев Антон Андреевич</p>
             <p class="block-menu__details">ИНН 773373765379</p>
             <p class="block-menu__details">ОГРИП 322774600208776</p>
-            <p class="block-menu__details">Эл. почта: <span class="email">alarichev@gmail.com</span></p>
+            <a href="#" class="block-menu__details">Эл. почта: <span class="email">alarichev@gmail.com</span></a>
             <p class="block-menu__details">Тел.: +7 (910) 435-75-92</p>
             <p class="block-menu__details">Москва, Вилиса Лациса 25</p>
           </div>
         </div>
-        <div class="footer__bottom">
+        <div class="footer__bottom line">
           <p class="copyright">© 2022 Finio. Все права защищены.</p>
           <div class="payment">
             <img src="./images/logo/visa card.svg" alt="">

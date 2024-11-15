@@ -1,63 +1,30 @@
-.reversed-slide {
-  flex-direction: row-reverse;
-  justify-content: center
+.burger {
+  display: none;
 }
-
-.activ-button {
-  background: var(--white-text);
-  color: var(--primary-blue);
-}
-
-.sales {
-  background: var(--color-background-sales);
-  color: var(--white-text);
-  border-radius: 8px;
-  max-width: 124px;
-  padding: 4px 16px;
-}
-
-
-.bottom-underline {
-  border-bottom: 1px solid var(--color-underline);
-}
-
-
-.white-underline {
-  border-bottom: 1px solid var(--color-white-underline);
-}
-
-
-.invisible {
-  opacity: 0;
-}
-
-.conditions-margin {
-  margin-bottom: 15px;
-}
-
-
-.active-price {
-  background: var(--color-active-card);
-  padding: 8px 16px;
-  color: var(--white-text);
-  border-radius: 8px;
-  margin-left: -14px;
-  margin-right: 16px;
-}
-
 
 .warning::before {
-  content: url("../images/logo/warning-marker.svg");
+  content: url('../images/logo/warning-marker.svg');
 }
-
 
 .accept::before {
-  content: url(../images/logo/accept-marker.svg);
+  content: url('../images/logo/accept-marker.svg');
 }
 
-.column-flex {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 20px;
+.sales__price {
+  background: #1ABC9C;
+  color: #fff;
+  border-radius: 8px;
+  max-width: 124px;
+}
+
+.textActiveCard {
+  color: var(--active-card);
+}
+
+.logo-gap {
+  row-gap: 18px;
+}
+
+.slider-dotes {
+  display: none;
 }

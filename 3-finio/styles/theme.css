@@ -1,8 +1,63 @@
-.active-price {
-  background: var(--color-active-card);
-  padding: 8px 16px;
-  color: var(--white-text);
-  border-radius: 8px;
-  margin-left: -14px;
-  margin-right: 16px;
+.textSize-17 {
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 23.8px;
+}
+
+.textSize-18 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.2px;
+}
+
+.textSize-36 {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 50.4px;
+}
+
+.line {
+  border-top: 1px solid var(--color-underline);
+}
+
+.reversed-slide {
+  flex-direction: row-reverse;
+}
+
+.column-flex {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bottom-underline {
+  border-bottom: 1px solid var(--color-underline)
+}
+
+.white-underline {
+  border-bottom: 1px solid #FFFFFF29
+}
+
+.invisible {
+  opacity: 0
+}
+
+.conditions-margin {
+  margin-bottom: 15px
+}
+
+.active-card {
+  background: var(--primaryBlue);
+}
+
+.width-283{
+  max-width: 283px;
+}
+
+.blue-button {
+  color: var(--primaryBlue);
+  background-color: var(--whiteText);
+}
+
+.white-title {
+  color: var(--whiteText);
 }
