@@ -1,0 +1,30 @@
+.burger {
+  display: none;
+}
+
+.warning::before {
+  content: url('../images/logo/warning-marker.svg');
+}
+
+.accept::before {
+  content: url('../images/logo/accept-marker.svg');
+}
+
+.sales__price {
+  background: #1ABC9C;
+  color: #fff;
+  border-radius: 8px;
+  max-width: 124px;
+}
+
+.textActiveCard {
+  color: var(--active-card);
+}
+
+.logo-gap {
+  row-gap: 18px;
+}
+
+.slider-dotes {
+  display: none;
+}
